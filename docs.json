@@ -39,11 +39,11 @@
             "group": "Endpoint examples",
             "pages": [
               "index",
-              "users/how-viewpoint-works",
+              "users/How-viewpoint-works",
               "users/membership-and-access",
               "users/how-to-use-vp-effectively",
               "users/community-rules-and-expectations",
-              "users/payments-billing"
+              "users/payments-and-billing"
             ]
           }
         ]
