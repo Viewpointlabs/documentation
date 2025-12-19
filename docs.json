@@ -36,10 +36,10 @@
         "tab": "Users",
         "groups": [
           {
-            "group": "Endpoint examples",
+            "group": "Getting Started",
             "pages": [
-              "index",
-              "users/How-viewpoint-works",
+              "users/index2",
+              "users/how-viewpoint-works",
               "users/membership-and-access",
               "users/how-to-use-vp-effectively",
               "users/community-rules-and-expectations",
