@@ -16,34 +16,34 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "Users",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "index",
+              "users/how-viewpoint-works",
+              "users/membership-and-access",
+              "users/how-to-use-vp-effectively",
+              "users/community-rules-and-expectations",
+              "users/payments-and-billing"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "Analysts",
         "groups": [
           {
             "group": "Getting started",
             "pages": [
-              "index",
+              "users/index2",
               "analysts/analysts-overview",
               "analysts/content-guidelines",
               "analysts/channel-structure",
               "analysts/interaction-with-members",
               "analysts/compliance-and-disclaimers",
               "analysts/partnerships"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Users",
-        "groups": [
-          {
-            "group": "Getting Started",
-            "pages": [
-              "users/index2",
-              "users/how-viewpoint-works",
-              "users/membership-and-access",
-              "users/how-to-use-vp-effectively",
-              "users/community-rules-and-expectations",
-              "users/payments-and-billing"
             ]
           }
         ]
@@ -68,20 +68,19 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "https://discord.gg/Ecb2ND3A"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Discord",
+      "href": "https://discord.gg/Ecb2ND3A"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/viewpointlabs",
+      "discord": "https://discord.gg/Ecb2ND3A"
     }
   }
 }
