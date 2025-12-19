@@ -38,12 +38,12 @@
             "pages": [
               "analysts/index2",
               "analysts/analysts-overview",
+              "analysts/economics",
+              "analysts/revenue-payments"
               "analysts/content-guidelines",
               "analysts/channel-structure",
               "analysts/interaction-with-members",
-              "analysts/compliance-and-disclaimers",
-              "analysts/partnerships",
-              "analysts/monetization"
+              "analysts/compliance-and-disclaimers"
             ]
           }
         ]
