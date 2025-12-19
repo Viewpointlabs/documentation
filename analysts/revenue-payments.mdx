@@ -50,23 +50,23 @@ The analyst pool is then split into:
 - **20% baseline pool**
 - **80% performance pool**
 
-[**​**](http://localhost:3002/analysts/monetization#points-distribution)**Points distribution**
+### Points distribution example
 
-| **Analyst** | **Points** | **% of points** |
-| :---------- | :--------- | :-------------- |
-| Analyst A   | 4,500      | 30.0%           |
-| Analyst B   | 3,600      | 24.0%           |
-| Analyst C   | 2,700      | 18.0%           |
-| Analyst D   | 1,950      | 13.0%           |
-| Analyst E   | 1,350      | 9.0%            |
-| Analyst F   | 900        | 6.0%            |
-| **Total**   | **15,000** | **100%**        |
+Total points issued (example): **15,000**
 
-### 
+| Analyst   | Points     | % of points |
+| :-------- | :--------- | :---------- |
+| Analyst A | 4,500      | 30%         |
+| Analyst B | 3,600      | 24%         |
+| Analyst C | 2,700      | 18%         |
+| Analyst D | 1,950      | 13%         |
+| Analyst E | 1,350      | 9%          |
+| Analyst F | 900        | 6%          |
+| **Total** | **15,000** | **100%**    |
 
-[**​**](http://localhost:3002/analysts/monetization#example-with-factual-numbers)**Example with factual numbers**
+## Performance example based on \$59 / \$79 pricing
 
-**Assumptions**
+### Assumptions
 
 - Total users: **1,000**
 - Analysts: **6**
@@ -80,7 +80,7 @@ The analyst pool is then split into:
   - **80% performance**
 - No soft cap applied
 
-### 
+---
 
 [**​**](http://localhost:3002/analysts/monetization#baseline-payout)**Baseline payout**
 
@@ -89,33 +89,50 @@ Split equally across 6 analysts:
 
 - **\$2,010 per analyst**
 
-### 
+---
 
-**Performance payout**
+### Performance payout allocation
 
-| **Analyst** | **% of points** | **Performance payout** |
-| :---------- | :-------------- | :--------------------- |
-| Analyst A   | 30%             | \$14,472               |
-| Analyst B   | 24%             | \$11,578               |
-| Analyst C   | 18%             | \$8,683                |
-| Analyst D   | 13%             | \$6,271                |
-| Analyst E   | 9%              | \$4,342                |
-| Analyst F   | 6%              | \$2,894                |
-| **Total**   |                 | **\$48,240**           |
+| Analyst   | % of points | Performance payout |
+| :-------- | :---------- | :----------------- |
+| Analyst A | 30%         | \$14,472           |
+| Analyst B | 24%         | \$11,578           |
+| Analyst C | 18%         | \$8,683            |
+| Analyst D | 13%         | \$6,271            |
+| Analyst E | 9%          | \$4,342            |
+| Analyst F | 6%          | \$2,894            |
+| **Total** |             | **\$48,240**       |
 
-### 
+---
 
-**Final monthly earnings per analyst**
+### Final monthly earnings per analyst
 
-| **Analyst**    | **Baseline** | **Performance** | **Total payout** |
-| :------------- | :----------- | :-------------- | :--------------- |
-| Analyst A      | \$2,010      | \$14,472        | **\$16,482**     |
-| Analyst B      | \$2,010      | \$11,578        | **\$13,588**     |
-| Analyst C      | \$2,010      | \$8,683         | **\$10,693**     |
-| Analyst D      | \$2,010      | \$6,271         | **\$8,281**      |
-| Analyst E      | \$2,010      | \$4,342         | **\$6,352**      |
-| Analyst F      | \$2,010      | \$2,894         | **\$4,904**      |
-| **Total paid** |              |                 | **\$60,300**     |
+| Analyst        | Baseline | Performance | **Total payout** |
+| :------------- | :------- | :---------- | :--------------- |
+| Analyst A      | \$2,010  | \$14,472    | **\$16,482**     |
+| Analyst B      | \$2,010  | \$11,578    | **\$13,588**     |
+| Analyst C      | \$2,010  | \$8,683     | **\$10,693**     |
+| Analyst D      | \$2,010  | \$6,271     | **\$8,281**      |
+| Analyst E      | \$2,010  | \$4,342     | **\$6,352**      |
+| Analyst F      | \$2,010  | \$2,894     | **\$4,904**      |
+| **Total paid** |          |             | **\$60,300**     |
+
+---
+
+### [**​**](http://localhost:3002/analysts/monetization#earnings-comparison-table)**Earnings comparison table**
+
+To make earnings easier to interpret, the table below translates each analyst’s **point share** into an **approximate number of users represented**, and compares Viewpoint earnings with what the same number of analysts would generate in **a private group about \$30/month subscription.**
+
+| Analyst   | Point share | Approx. users represented | Viewpoint payout | Private earnings (\$30) | Difference     |
+| :-------- | :---------- | :------------------------ | :--------------- | :---------------------- | :------------- |
+| Analyst A | 30%         | ~300                      | \$16,482         | \$9,000                 | **\+ \$7,482** |
+| Analyst B | 24%         | ~240                      | \$13,588         | \$7,200                 | **\+ \$6,388** |
+| Analyst C | 18%         | ~180                      | \$10,693         | \$5,400                 | **\+ \$5,293** |
+| Analyst D | 13%         | ~130                      | \$8,281          | \$3,900                 | **\+ \$4,381** |
+| Analyst E | 9%          | ~90                       | \$6,352          | \$2,700                 | **\+ \$3,652** |
+| Analyst F | 6%          | ~60                       | \$4,904          | \$1,800                 | **\+ \$3,104** |
+
+[**​**](http://localhost:3002/analysts/monetization#example-with-factual-numbers)
 
 ### [**​**](http://localhost:3002/analysts/monetization#soft-cap-on-dominance)**Soft cap on dominance**
 
@@ -130,27 +147,14 @@ This means:
 - but the marginal benefit of extreme monopoly dominance is reduced
 - the system creates a situation that it remains attractive for multiple high-quality analysts
 
-[**​**](http://localhost:3002/analysts/monetization#earnings-comparison-table)**Earnings comparison table**
+## Why Viewpoint earnings scale better
 
-To make earnings easier to interpret, the table below translates each analyst’s **point share** into an **approximate number of users represented**, and compares Viewpoint earnings with what the same number of analysts would generate in **a private group about \$30/month subscription.**
-
-| **Analyst** | **Point share** | **Approx. users represented** | **Viewpoint payout** | **Private earnings (\$30)** | **Difference** |
-| :---------- | :-------------- | :---------------------------- | :------------------- | :-------------------------- | :------------- |
-| Analyst A   | 30%             | ~300                          | \$16,482             | \$9,000                     | **\+ \$7,482** |
-| Analyst B   | 24%             | ~240                          | \$13,588             | \$7,200                     | **\+ \$6,388** |
-| Analyst C   | 18%             | ~180                          | \$10,693             | \$5,400                     | **\+ \$5,293** |
-| Analyst D   | 13%             | ~130                          | \$8,281              | \$3,900                     | **\+ \$4,381** |
-| Analyst E   | 9%              | ~90                           | \$6,352              | \$2,700                     | **\+ \$3,652** |
-| Analyst F   | 6%              | ~60                           | \$4,904              | \$1,800                     | **\+ \$3,104** |
-
-**Why Viewpoint earnings scale better**
-
-This comparison highlights 3 structural advantages:
+This comparison highlights three structural advantages:
 
 1. **Shared demand**\
    Analysts benefit not only from their own audience, but from platform-wide demand.
 2. **Higher ARPU**\
-   Users pay more overall, but receive more value from multiple analysts. Joining Viewpoint means the relative price would reflect only 2 or 3 analysts seperately.
+   Users pay slightly more overall than a single private group, but receive more value, allowing analysts to earn more per unit of attention.
 3. **Lower operational burden**\
    No individual subscription management, payment handling, or server maintenance.
 
